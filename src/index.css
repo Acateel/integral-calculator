@@ -1,0 +1,49 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #B2B2B2;
+}
+
+label, button, input {
+    display: block;
+    margin: 20px 0;
+    font-family: "Inter", sans-serif;
+}
+
+input::placeholder {
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    background-color: #00ABB3;
+    color: #EAEAEA;
+    padding: 10px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: 500;
+}
+
+code {
+    color: #146C94;
+}
+
+h3 + code {
+    font-size: 40px;
+}
+
+h1 {
+    color: #00ABB3;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 35%;
+    margin: auto;
+    background-color: #EAEAEA;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
