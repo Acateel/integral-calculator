@@ -53,10 +53,10 @@ function App() {
         Математичне очікування: <code>{ocuracity.M}</code>
       </h3>
       <h3>
-        Середньоквадратичне відхілення: <code>{ocuracity.sqrtD}</code>
+        Середньо-квадратичне відхілення: <code>{ocuracity.sqrtD}</code>
       </h3>
       <h3>
-        Обсолютка похибка: <code>{ocuracity.Q}</code>
+        Обсолютна похибка: <code>{ocuracity.Q}</code>
       </h3>
     </div>
   );
