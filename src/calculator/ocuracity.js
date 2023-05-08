@@ -21,20 +21,20 @@ function round(x) {
  *          }
  */
 function calcOcuracity(integralParams, St) {
-  const { N } = integralParams;
+  const n = 20;
   var sumS = 0;
   var sumS2 = 0;
 
   // визначення суми значеннь інтегралів та квадрату сум
-  for (let i = 0; i < N; i++) {
+  for (let i = 0; i < n; i++) {
     var Si = calcIntegral(integralParams);
     sumS += Si;
     sumS2 += Math.pow(Si, 2);
   }
   // визначення матиматичного очікування
-  const M = sumS / N;
+  const M = sumS / n;
   // визначення дисперсії
-  const D = (sumS2 - 2 * M * sumS + N * Math.pow(M, 2)) / N;
+  const D = (sumS2 - 2 * M * sumS + n * Math.pow(M, 2)) / n;
   // повернення окрушленого результату обчислень
   return {
     M: round(M),
